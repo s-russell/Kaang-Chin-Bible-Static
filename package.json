@@ -1,0 +1,26 @@
+{
+    "name": "kaang-chin-bible-static",
+    "version": "0.0.1",
+    "description": "A collection of publisher scripts that convert a JSON representation of the Kaang Chin New Testament into static file formats",
+    "main": "src/index.js",
+    "scripts": {
+        "get-latest-bible": "ts-node src/get-latest-bible.ts"
+    },
+    "author": "Steve Russell",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "@types/node": "^14.0.5",
+        "prettier": "^2.0.5",
+        "ts-node": "^8.10.1",
+        "typescript": "^3.9.3"
+    },
+    "dependencies": {
+        "@types/mkdirp": "^1.0.0",
+        "mkdirp": "^1.0.4"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": false,
+        "semi": false
+    }
+}
