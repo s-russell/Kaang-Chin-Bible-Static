@@ -4,7 +4,9 @@
     "description": "A collection of publisher scripts that convert a JSON representation of the Kaang Chin New Testament into static file formats",
     "main": "src/index.js",
     "scripts": {
-        "get-latest-bible": "ts-node src/get-latest-bible.ts"
+        "get-latest-bible": "ts-node src/get-latest-bible.ts",
+        "build-artifacts": "ts-node src/build-artifacts.ts",
+        "publish": "npm run get-latest-bible && npm run build-artifacts"
     },
     "author": "Steve Russell",
     "license": "UNLICENSED",
