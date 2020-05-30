@@ -1,6 +1,6 @@
 import { AbstractPublisher } from "./base-publisher"
 import * as mkdirp from "mkdirp"
-import * as fs from "fs/promises"
+import { promises as fs } from 'fs'
 
 export class TxtPublisher extends AbstractPublisher {
     async publish(): Promise<void> {

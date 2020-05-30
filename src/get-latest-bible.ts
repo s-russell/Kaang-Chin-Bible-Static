@@ -1,5 +1,5 @@
 import * as https from 'https'
-import * as fs from 'fs/promises'
+import { promises as fs } from 'fs'
 import * as mkdirp from 'mkdirp'
 
 const writeJSONFile = async (data: string) => {
